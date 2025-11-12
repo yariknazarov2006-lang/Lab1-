@@ -64,7 +64,7 @@ def draw_fucion(x = 16, y = 16):
 
 # ДИАГРАММА "Количество чисел меньше и больше 0"
 def draw_diag():
-    inf = open(r"C:\Users\nazar\OneDrive\Документы\PTH LABs\LAB1\sequence.txt").readlines()
+    inf = open(r"LAB1\sequence.txt").readlines()
     n0 = 0
     n1 = 0
     for i in range(len(inf)):
@@ -88,6 +88,6 @@ def draw_diag():
 
 if __name__ == '__main__':
     draw_flag()
-    #draw_pattern()
-    #draw_fucion()
-    #draw_diag()
+    draw_pattern()
+    draw_fucion()
+    draw_diag()
